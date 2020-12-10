@@ -7,19 +7,15 @@
     <link rel="StyleSheet" href="./css/style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script> <!--để lấy icon user-->
 </head>
 
 <body>
-    <header>
-        <h1>MySite</h1>
-        <h3>Slogan go here...</h3>
-    </header>
-    <nav>
+    <nav style="top: 0;position: fixed;width: 100%;"> <!--cố định thanh menu-->
         <ul>
             <li><a data-section="home">Home</a></li>
-            <li><a data-section="services">Services</a></li>
-            <li class="dropdown">
+            <li><a data-section="service">Service</a></li>
+            <li class="dropdown"> <!--dropdowm-->
                 <a href="javascript:void(0)" class="dropbtn">Products</a>
                 <div class="dropdown-content">
                     <a data-section="link1">Link 1</a>
@@ -27,20 +23,49 @@
                     <a data-section="link3">Link 3</a>
                 </div>
             </li>
-            <li style="float:right"><a data-section="about">About us</a></li>
+            <li style="float:right"><a data-section="about">About</a></li>
         </ul>
     </nav>
+    <header>
+        <img src="https://www.w3schools.com/w3images/parallax1.jpg" style="width: 100%; height: 500px;">
+        <h1 style="margin-top: -300px;">MySite</h1>
+        <h3>My Static Website...</h3><br>
+    </header>
 
     <section id="home" class="hideable-section">
         <div>Home content</div>
+        <h1 style="text-align: center;margin-bottom: 10px;">About me</h1>
+        <h3 style="text-align: center;margin-bottom: 20px;"><em>I love photography</em></h3>
+        <p style="margin: 0px 70px; text-align: justify;">We have created a fictional "personal" website/blog, 
+            and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur 
+            adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+            mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.</p>
     </section>
 
-    <section id="services" class="hideable-section">
-        <div>Services content</div>
+    <section id="service" class="hideable-section">
+        <div>Service content</div>
     </section>
 
     <section id="about" class="hideable-section">
         <div>About content</div>
+        <div style="text-align: center;">
+            <i class='fas fa-user-alt'></i>
+            <span>My Name</span><br>
+            <img src="https://www.w3schools.com/w3images/avatar_hat.jpg">
+        </div>
+        <p style="text-align: justify;">Welcome to my website. I am lorem ipsum consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor 
+            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+            consequat.</p>
     </section>
 
     <section id="link1" class="hideable-section">

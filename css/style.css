@@ -2,29 +2,30 @@
     margin: 0;
     box-sizing: border-box;
     color: #666;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
+h1, h2, h3 {
+    color: black;
+    font-size: x-large;
+    /*margin-bottom: 20px;*/
+}
 
-/* Header/logo tiêu đề */
-
+/*Header/logo tiêu đề */
 header {
     padding: 5px;
     text-align: center;
-    background: #1abc9c;
     color: white;
-    height: 120px;
+    height: 500px;
 }
 
-
 /* Tăng kích thước font chữ cho header */
-
 header h1 {
     font-size: 40px;
 }
 
-header h1,
-h2,
-h3 {
+header h1, h2, h3 {
     color: white;
 }
 
@@ -98,4 +99,8 @@ li.dropdown {
 
 .hideable-section:first-of-type {
     display: block;
+}
+
+.fa-user {
+    content: "\f007";
 }
