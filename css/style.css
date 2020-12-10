@@ -2,7 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     color: #666;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -103,4 +103,16 @@ li.dropdown {
 
 .fa-user {
     content: "\f007";
+}
+
+/*column*/
+.column.left {
+    width: 40%;
+}
+.column.right {
+    width: 60%;
+}
+.column {
+    float: left;
+    padding: 10px;
 }
