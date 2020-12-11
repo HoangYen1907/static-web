@@ -5,45 +5,45 @@
 
 ## Kết quả:
 
-### Header:
+- [x] Header:
 ![Header](screenshots/s1.png)
 
-### Footer:
+- [x] Footer:
 ![Footer](screenshots/s2.png)
 
-### Home:
+- [x] Home:
 ![Home](screenshots/s3.png)
 
-### Contact:
+- [x] Contact:
 ![Contact](screenshots/s4.png)
-#### (max-width: 700px)
+(max-width: 700px)
 ![Contact](screenshots/s5.png)
 
-### Galery
+- [x] Galery
 ![Galery](screenshots/s6.png)
 ![Galery](screenshots/s7.png)
 ![Galery](screenshots/s8.png)
 ![Galery](screenshots/s9.png)
-#### (max-width: 800px)
+(max-width: 800px)
 ![Galery](screenshots/s10.png)
-#### (max-width: 600px)
+(max-width: 600px)
 ![Galery](screenshots/s11.png)
 
-### Picture
+- [x] Picture
 ![Picture](screenshots/s12.png)
-#### (min-width: 800px)
+(min-width: 800px)
 ![Picture](screenshots/s13.png)
-#### (min-width: 650px)
+(min-width: 650px)
 ![Picture](screenshots/s14.png)
 
-### Video
+- [x] Video
 ![Video](screenshots/s15.png)
 
-### Audio
+- [x] Audio
 ![Audio](screenshots/s16.png)
 
-### About
+- [x] About
 ![About](screenshots/s17.png)
 ![About](screenshots/s18.png)
-#### (max-width: 700px)
+(max-width: 700px)
 ![Contact](screenshots/s19.png)
