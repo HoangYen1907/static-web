@@ -21,14 +21,13 @@ header {
 }
 
 /*Footer*/
-footer {
+footer{
+    height: 150px;
     clear: both;
-}
-footer p{
     background-color:#616161;
+    text-align: center;
     color: white;
     font-size: 20px;
-    text-align: center;
 }
 
 /* Tăng kích thước font chữ cho header */
@@ -98,7 +97,6 @@ li.dropdown {
     display: block;
 }
 
-
 /* Landing page */
 
 .hideable-section {
@@ -107,10 +105,6 @@ li.dropdown {
 
 .hideable-section:first-of-type {
     display: block;
-}
-
-.fa-user {
-    content: "\f007";
 }
 
 /*column*/
