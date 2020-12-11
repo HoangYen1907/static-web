@@ -16,36 +16,34 @@
 
 - [x] Contact:
 ![Contact](screenshots/s4.png)
-(max-width: 700px)
+- [x] Contact: (max-width: 700px)
 ![Contact](screenshots/s5.png)
 
-- [x] Galery
+- [x] Galery:
 ![Galery](screenshots/s6.png)
 ![Galery](screenshots/s7.png)
 ![Galery](screenshots/s8.png)
 ![Galery](screenshots/s9.png)
-(max-width: 800px)
+- [x] Galery (max-width: 800px)
 ![Galery](screenshots/s10.png)
-
-(max-width: 600px)
+- [x] Galery (max-width: 600px)
 ![Galery](screenshots/s11.png)
 
-- [x] Picture
+- [x] Picture:
 ![Picture](screenshots/s12.png)
-(min-width: 800px)
+- [x] Picture (min-width: 800px)
 ![Picture](screenshots/s13.png)
-
-(min-width: 650px)
+- [x] Picture (min-width: 650px)
 ![Picture](screenshots/s14.png)
 
-- [x] Video
+- [x] Video:
 ![Video](screenshots/s15.png)
 
-- [x] Audio
+- [x] Audio:
 ![Audio](screenshots/s16.png)
 
-- [x] About
+- [x] About:
 ![About](screenshots/s17.png)
 ![About](screenshots/s18.png)
-(max-width: 700px)
+- [x] About (max-width: 700px)
 ![Contact](screenshots/s19.png)
