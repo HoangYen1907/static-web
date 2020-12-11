@@ -46,4 +46,4 @@
 ![About](screenshots/s17.png)
 ![About](screenshots/s18.png)
 ##### (max-width: 700px)
-![About](screenshots/s19.png)
+![About](screenshots/s19.PNG)
