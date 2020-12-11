@@ -26,6 +26,7 @@
 ![Galery](screenshots/s9.png)
 (max-width: 800px)
 ![Galery](screenshots/s10.png)
+
 (max-width: 600px)
 ![Galery](screenshots/s11.png)
 
@@ -33,6 +34,7 @@
 ![Picture](screenshots/s12.png)
 (min-width: 800px)
 ![Picture](screenshots/s13.png)
+
 (min-width: 650px)
 ![Picture](screenshots/s14.png)
 
