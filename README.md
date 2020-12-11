@@ -1,13 +1,16 @@
 # Landingpage
+# Bài thực hành HTML/CSS/JAVASCRIPT
+# My Static Website
 
-## Bài thực hành HTML/CSS/JAVASCRIPT
-## My Static Website
+## Kết quả
 
-### Kết quả
-
-#### Header
+## Header
 ![Header](screenshots/s1.png)
-#### Footer
+## Footer
 ![Footer](screenshots/s2.png)
-#### Home
+## Home
 ![Home](screenshots/s3.png)
+## Contact
+![Contact](screenshots/s4.png)
+### (max-width: 700px)
+![Contact](screenshots/s5.png)
