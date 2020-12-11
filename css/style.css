@@ -1,13 +1,13 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    color: #666;
+    color: #777;
     font-size: 16px;
     line-height: 1.5;
 }
 
 h1, h2, h3 {
-    color: black;
+    text-align: center;
     font-size: x-large;
     /*margin-bottom: 20px;*/
 }
@@ -21,6 +21,9 @@ header {
 }
 
 /*Footer*/
+footer {
+    clear: both;
+}
 footer p{
     background-color:#616161;
     color: white;
@@ -31,9 +34,6 @@ footer p{
 /* Tăng kích thước font chữ cho header */
 header h1 {
     font-size: 25px;
-}
-
-header h1, h2, h3 {
     color: white;
 }
 

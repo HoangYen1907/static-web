@@ -14,7 +14,7 @@
     <nav style="top: 0;position: fixed;width: 100%;"> <!--cố định thanh menu-->
         <ul>
             <li><a data-section="home">Home</a></li>
-            <li><a data-section="service">Service</a></li>
+            <li><a data-section="contact">Contact</a></li>
             <li class="dropdown"> <!--dropdowm-->
                 <a href="javascript:void(0)" class="dropbtn">Products</a>
                 <div class="dropdown-content">
@@ -35,7 +35,7 @@
 
     <section id="home" class="hideable-section">
         <div style="padding: 10px 100px; margin-bottom: 50px;">
-            <h2 style="text-align: center;margin-bottom: 20px;"><em>I love photography</em></h2>
+            <h2 style="margin-bottom: 20px;"><em>I love photography</em></h2>
             <p style="margin: 0px 70px; text-align: justify;">We have created a fictional "personal" website/blog, 
                 and our fictional character is a hobby photographer. Lorem ipsum dolor sit amet, consectetur 
                 adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
@@ -49,8 +49,28 @@
         </div>
     </section>
 
-    <section id="service" class="hideable-section">
-        <div>Service content</div>
+    <section id="contact" class="hideable-section">
+        <div style="padding: 0px 100px;">
+            <h2 style="margin: 10px 0px;">MY WORK</h2>
+            <h3 style="margin-bottom: 20px;"><em>I'd love your feedback!</em></h3>
+            <div class="column left">
+                <img src="https://www.w3schools.com/w3images/map.jpg" style="width:100%">
+            </div>
+            <div class="column right">
+                <i class="fas fa-map-marker-alt" style="letter-spacing: 3px; margin-top: 20px;"> Chicago, US</i><br>
+                <i class="fas fa-phone" style="letter-spacing: 3px; margin-top: 20px;"> Phone:+00 151515</i><br>
+                <i class="fas fa-envelope" style="letter-spacing: 3px; margin-top: 20px;"> Email: mail@gmail.com</i><br>
+                <p style="margin: 20px 0px;">Swing by for a cup of <i class="fas fa-coffee"></i>, or leave me a note:</p>
+                <form action="" target="_blank">
+                    <input type="text" placeholder="Name" name="name" class="column left">
+                    <input type="text" placeholder="Email" name="mail" class="column right">
+                    <input type="text" placeholder=" Message" name="mess" style="width:100%;height: 50px; margin: 10px 0px;">
+                    <button type="submit" style="float: right; height: 50px;margin-bottom: 50px;">
+                        <i class="fas fa-paper-plane" style=""> SEND MESSAGE</i><br>
+                    </button>
+                </form>
+            </div>
+        </div>
     </section>
 
     <section id="about" class="hideable-section">
