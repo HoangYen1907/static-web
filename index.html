@@ -19,15 +19,16 @@
                 <a href="javascript:void(0)" class="dropbtn">Products</a>
                 <div class="dropdown-content">
                     <a data-section="link1">Gallery</a>
-                    <a data-section="link2">Video</a>
-                    <a data-section="link3">Audio</a>
+                    <a data-section="link2">Picture</a>
+                    <a data-section="link3">Video</a>
+                    <a data-section="link4">Audio</a>
                 </div>
             </li>
             <li style="float:right"><a data-section="about">About me</a></li>
         </ul>
     </nav>
     <header>
-        <img src="https://www.w3schools.com/w3images/parallax1.jpg" style="width: 100%; height: 400px;">
+        <img src="https://www.w3schools.com/w3images/parallax1.jpg" style="width: 100%; height: 500px;">
         <div style="background-color: black; top: 40%; left: 50%; transform: translate(-50%,-50%); position: absolute;">
             <h1 style="letter-spacing: 10px;">MY STATIC WEBSITE</h1>
         </div>
@@ -159,9 +160,29 @@
 
     <section id="link2" class="hideable-section">
         <div style="padding: 10px 200px;">
+            <h1>The picture element</h1>
+            <p>Resize the browser window to load different images.</p>
+            <picture>
+                <source media="(min-width:800px)" srcset="https://www.w3schools.com/tags/img_pink_flowers.jpg">
+                <source media="(min-width:650px)" srcset="https://www.w3schools.com/tags/img_white_flower.jpg">
+                <img src="https://www.w3schools.com/tags/img_orange_flowers.jpg" style="width:auto; margin: auto; display: block;">
+            </picture>
+            <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+                The browser looks for the first source element where the media query matches the user's current viewport width,
+                and fetches the image specified in the srcset attribute.</p><br> 
+            <p>The img element is required as the last child tag of the picture declaration block.
+                The img element is used to provide backward compatibility for browsers that do not support the picture element, 
+                or if none of the source tags matched.
+            </p><br>
+            <p><strong>Note:</strong> The picture element is not supported in IE12 and earlier or Safari 9.0 and earlier.</p>
+        </div>
+    </section>
+
+    <section id="link3" class="hideable-section">
+        <div style="padding: 10px 200px;">
             <h2 style="margin: 10px 0px;">THE VIDEO ELEMENT</h2>
             <h3 style="margin-bottom: 20px;"><em>Click on the play button to play a sound:</em></h3>
-            <video width="100%" controls>
+            <video style="width:60%; margin: auto; display: block;" controls>
                 <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
                 <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
                 Your browser does not support HTML video.
@@ -174,7 +195,7 @@
         </div>
     </section>
 
-    <section id="link3" class="hideable-section">
+    <section id="link4" class="hideable-section">
         <div style="padding: 10px 200px;">
             <h2 style="margin: 10px 0px;">THE AUDIO ELEMENT</h2>
             <h3 style="margin-bottom: 20px;"><em>Click on the play button to play a sound:</em></h3>
