@@ -17,7 +17,7 @@
 - [x] Contact:
 ![Contact](screenshots/s4.png)
 ##### (max-width: 700px)
-![Contact1](screenshots/s5.png)
+![Contact](screenshots/s5.png)
 
 - [x] Galery:
 ![Galery](screenshots/s6.png)
@@ -25,16 +25,16 @@
 ![Galery](screenshots/s8.png)
 ![Galery](screenshots/s9.png)
 ##### (max-width: 800px)
-![Galery1](screenshots/s10.png)
+![Galery](screenshots/s10.png)
 ##### (max-width: 600px)
-![Galery2](screenshots/s11.png)
+![Galery](screenshots/s11.png)
 
 - [x] Picture:
 ![Picture](screenshots/s12.png)
 ##### (min-width: 800px)
-![Picture1](screenshots/s13.png)
+![Picture](screenshots/s13.png)
 ##### (min-width: 650px)
-![Picture2](screenshots/s14.png)
+![Picture](screenshots/s14.png)
 
 - [x] Video:
 ![Video](screenshots/s15.png)
@@ -46,4 +46,4 @@
 ![About](screenshots/s17.png)
 ![About](screenshots/s18.png)
 ##### (max-width: 700px)
-![Contact1](screenshots/s19.png)
+![About](screenshots/s19.PNG)
